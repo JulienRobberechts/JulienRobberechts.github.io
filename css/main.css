@@ -99,6 +99,10 @@ body {
   line-height: 1.625em;
   position: relative;
   min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 ol,
@@ -4561,7 +4565,7 @@ dl.accordion.time-line:before {
 }
 
 .footer-text a {
-  color: #8490ff;
+  color: #ffffff;
 }
 
 /*-------- end footer Area -------------*/
