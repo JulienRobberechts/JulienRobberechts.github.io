@@ -98,6 +98,7 @@ body {
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
+  min-height: 100vh;
 }
 
 ol,
@@ -4388,6 +4389,7 @@ dl.accordion.time-line:before {
 /* =================================== */
 .footer-area {
   background-color: #04091e;
+  padding-top: 1rem;
 }
 
 .single-footer-widget h4 {
@@ -4552,6 +4554,10 @@ dl.accordion.time-line:before {
 .footer-bottom .lnr,
 .footer-bottom a {
   color: #8490ff;
+}
+
+.footer-text {
+  font-size: 80%;
 }
 
 .footer-text a {
