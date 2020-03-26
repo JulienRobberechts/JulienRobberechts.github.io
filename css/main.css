@@ -2510,26 +2510,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 750px !important;
 }
 
-.banner-left h6 {
+.banner-left-pre-title {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 2px;
 }
 
-.banner-left h1 {
-  margin: 20px 0;
-  font-size: 60px;
+.banner-left-title {
+  margin: 10px 0;
+  font-size: 2rem;
   text-transform: uppercase;
-}
-
-@media (max-width: 991px) {
-  .banner-left h1 {
-    font-size: 30px;
-  }
+  color: #000;
 }
 
 .banner-left .primary-btn:hover {
   box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
+}
+
+.banner-left {
+  margin-bottom: 40px;
 }
 
 @media (max-width: 767px) {
