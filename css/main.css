@@ -2170,6 +2170,10 @@ h6 {
   min-width: 180px;
 }
 
+.invisible-nav-menu a {
+  color: white !important;
+}
+
 /* Nav Menu Arrows */
 .sf-arrows .sf-with-ul {
   padding-right: 30px;
