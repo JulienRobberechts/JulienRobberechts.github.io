@@ -2886,7 +2886,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease 0s;
   text-align: center;
   background-color: #f9f9ff;
-  padding: 40px 20px;
+  padding: 20px 10px;
 }
 
 .price-area .single-price .package-no {
@@ -2895,15 +2895,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   font-weight: 300;
-  margin-left: auto;
-  margin-right: auto;
-  width: 140px;
-  height: 140px;
+  height: 100px;
   background-color: rgba(132, 144, 255, 0.1);
-  border-radius: 100px;
+  border-radius: 3px;
   align-items: center;
   display: grid;
-  border: 30px solid rgba(132, 144, 255, 0.1);
+  border: 3px solid rgba(132, 144, 255, 0.1);
 }
 
 .price-area .single-price .top-part h4 {
@@ -2958,11 +2955,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .price-area .single-price:hover h1,
-.price-area .single-price:hover h4 {
+.price-area .single-price:hover h2,
+.price-area .single-price:hover h3,
+.price-area .single-price:hover h4,
+.price-area .single-price:hover h5,
+.price-area .single-price:hover h6 {
   color: #fff;
 }
 
-.price-area .single-price:hover .package-no {
+.single-price:hover .package-no {
   border-color: rgba(255, 255, 255, 0.21);
   background-color: rgba(255, 255, 255, 0.1);
 }
