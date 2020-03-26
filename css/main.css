@@ -2565,18 +2565,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-.home-about-right h6 {
-  margin-bottom: 30px;
+.home-about-right-pre-title {
   text-transform: uppercase;
   font-weight: 400;
+  letter-spacing: 2px;
 }
 
-.home-about-right h1 {
+.home-about-right-title {
   margin-bottom: 40px;
+  margin: 10px 0;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #000;
 }
 
 @media (max-width: 991px) {
-  .home-about-right h1 {
+  .home-about-right-title {
     font-size: 20px;
   }
 }
