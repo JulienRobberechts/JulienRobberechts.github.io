@@ -2931,7 +2931,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease 0s;
 }
 
-.price-area .single-price .bottom-part .price-btn {
+.price-label {
+  color: #222;
+  padding: 10px 50px;
+  font-weight: 400;
+  margin: 4px;
+}
+
+.price-btn {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2940,8 +2947,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #222;
   padding: 10px 50px;
   font-weight: 600;
-  display: inline-block;
-  display: none;
+  margin: 4px;
 }
 
 .price-area .single-price:hover {
@@ -2961,11 +2967,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.price-area .single-price:hover .bottom-part h1 {
+.single-price .item-non-selected {
+  display: block;
+}
+
+.single-price .item-selected {
   display: none;
 }
 
-.price-area .single-price:hover .bottom-part .price-btn {
+.single-price:hover .item-non-selected {
+  display: none;
+}
+
+.single-price:hover .item-selected {
   display: block;
 }
 
