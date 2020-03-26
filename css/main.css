@@ -2879,6 +2879,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*--------- end testimonial area  -------------*/
 /*--------- Start price  Area -------------*/
+
+.price-area .single-prices {
+  justify-content: center;
+}
+
 .price-area .single-price {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2887,6 +2892,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   background-color: #f9f9ff;
   padding: 20px 10px;
+  flex-basis: 30%;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 5px;
+  min-width: 300px;
 }
 
 .price-area .single-price .package-no {
