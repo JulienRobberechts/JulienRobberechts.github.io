@@ -2507,7 +2507,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area .fullscreen {
-  height: 750px !important;
+  min-height: 100vh !important;
 }
 
 .banner-left-pre-title {
@@ -2552,6 +2552,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
     display: block;
   }
 }
