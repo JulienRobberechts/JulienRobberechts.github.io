@@ -655,7 +655,7 @@ th {
   text-align: left;
 }
 
-.text-rigth {
+.text-right {
   text-align: right;
 }
 
@@ -1448,6 +1448,12 @@ h6 {
 
 .input-group-icon {
   position: relative;
+}
+
+.linkedin-icon {
+  max-width: 60px;
+  position: relative;
+  bottom: 1px;
 }
 
 .input-group-icon .icon {
