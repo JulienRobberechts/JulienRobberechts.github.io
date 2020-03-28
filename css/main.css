@@ -2908,9 +2908,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 100px;
   background-color: #004c8c1a;
   border-radius: 3px;
-  align-items: center;
-  display: grid;
   border: 3px solid #004c8c1a;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .price-area .single-price .top-part h4 {
@@ -2979,7 +2981,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-price .item-non-selected {
-  display: block;
+  display: initial;
 }
 
 .single-price .item-selected {
@@ -2991,7 +2993,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-price:hover .item-selected {
-  display: block;
+  display: flex;
 }
 
 @media (max-width: 960px) {
