@@ -2384,7 +2384,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .home-about-right .primary-btn,
 .facts-area,
 .thumb .overlay-bg,
-.price-area .single-price:hover,
+.app-area .single-app:hover,
 .brands-area,
 .about-banner,
 .sb_bar {
@@ -2878,13 +2878,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------- end testimonial area  -------------*/
-/*--------- Start price  Area -------------*/
+/*--------- Start app  Area -------------*/
 
-.price-area .single-prices {
+.app-area .single-apps {
   justify-content: center;
 }
 
-.price-area .single-price {
+.app-area .single-app {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2895,11 +2895,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-basis: 30%;
   flex-shrink: 1;
   flex-grow: 1;
-  margin: 5px;
+  margin: 10px;
   min-width: 300px;
 }
 
-.price-area .single-price .package-no {
+.app-area .single-app .package-no {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2915,39 +2915,32 @@ body.mobile-nav-active #mobile-nav-toggle {
   align-items: center;
 }
 
-.price-area .single-price .top-part h4 {
+.app-area .single-app .top-part h4 {
   margin-top: 20px;
 }
 
-.price-area .single-price .package-list {
+.app-area .single-app .package-list {
   padding-bottom: 30px;
   padding-top: 15px;
 }
 
-.price-area .single-price .package-list ul li {
+.app-area .single-app .package-list ul li {
   padding: 10px 0;
   border-top: 1px solid #eee;
 }
 
-.price-area .single-price .package-list ul li:last-child {
+.app-area .single-app .package-list ul li:last-child {
   border-bottom: 1px solid #eee;
 }
 
-.price-area .single-price .bottom-part {
+.app-area .single-app .bottom-part {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
-.price-label {
-  color: #222;
-  padding: 10px 50px;
-  font-weight: 400;
-  margin: 4px;
-}
-
-.price-btn {
+.app-btn {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2959,56 +2952,44 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 4px;
 }
 
-.price-area .single-price:hover {
+.app-area .single-app:hover {
   transform: scale(1.05);
   z-index: 2;
   color: #fff;
   cursor: pointer;
 }
 
-.price-area .single-price:hover h1,
-.price-area .single-price:hover h2,
-.price-area .single-price:hover h3,
-.price-area .single-price:hover h4,
-.price-area .single-price:hover h5,
-.price-area .single-price:hover h6 {
+.app-area .single-app:hover h1,
+.app-area .single-app:hover h2,
+.app-area .single-app:hover h3,
+.app-area .single-app:hover h4,
+.app-area .single-app:hover h5,
+.app-area .single-app:hover h6 {
   color: #fff;
 }
 
-.single-price:hover .package-no {
+.single-app:hover .package-no {
   border-color: #ffffff36;
   background-color: #ffffff1a;
 }
 
-.single-price .item-non-selected {
+.single-app .item-non-selected {
   display: initial;
 }
 
-.single-price .item-selected {
+.single-app .item-selected {
   display: none;
 }
 
-.single-price:hover .item-non-selected {
+.single-app:hover .item-non-selected {
   display: none;
 }
 
-.single-price:hover .item-selected {
+.single-app:hover .item-selected {
   display: flex;
 }
 
-@media (max-width: 960px) {
-  .price-area .single-price {
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 736px) {
-  .price-area .single-price {
-    margin: 10px;
-  }
-}
-
-/*--------- end price  Area -------------*/
+/*--------- end app  Area -------------*/
 /*-------- start recent-blog Area -------------*/
 .recent-blog-area {
   background: #f9f9ff;
