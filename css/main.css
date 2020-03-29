@@ -2394,7 +2394,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .p1-gradient-color,
-.single-services:hover .lnr {
+.single-skill:hover .lnr {
   background: -moz-linear-gradient(0deg, #004c8c 0%, #79b4e5 100%);
   background: -webkit-linear-gradient(0deg, #004c8c 0%, #79b4e5 100%);
   background: -ms-linear-gradient(0deg, #004c8c 0%, #79b4e5 100%);
@@ -2600,12 +2600,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- End home-about Area ------------*/
 /*--------- Start Services Area -------------*/
-.single-services {
+.single-skill {
   text-align: center;
   margin-top: 60px;
 }
 
-.single-services .lnr {
+.single-skill .lnr {
   font-size: 35px;
   color: #222;
   -webkit-transition: all 0.3s ease 0s;
@@ -2614,7 +2614,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease 0s;
 }
 
-.single-services h4 {
+.single-skill h4 {
   margin-top: 30px;
   margin-bottom: 20px;
   -webkit-transition: all 0.3s ease 0s;
@@ -2623,7 +2623,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease 0s;
 }
 
-.single-services p {
+.single-skill p {
   max-width: 318px;
   margin-left: auto;
   margin-right: auto;
@@ -2631,7 +2631,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: justify;
 }
 
-.single-services:hover h4 {
+.single-skill:hover h4 {
   color: #004c8c;
 }
 
