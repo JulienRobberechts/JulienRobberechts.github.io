@@ -3163,11 +3163,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*-------- Start Skillbar Style  -------------*/
-.single-skill p {
-  margin-top: 30px;
-  margin-bottom: 5px;
-  text-align: right;
-}
 
 .sb_progress {
   height: 14px !important;
