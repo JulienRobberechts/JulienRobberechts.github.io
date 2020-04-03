@@ -2857,6 +2857,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   height: 100%;
+  border-radius: 5px;
+  border: 2px solid #9d9d9d33;
 }
 
 .single-testimonial:hover {
