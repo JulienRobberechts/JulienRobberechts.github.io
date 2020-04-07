@@ -4325,7 +4325,8 @@ dl.accordion.time-line:before {
   font-size: 30px;
   font-weight: 500;
   color: #004c8c;
-  margin-right: 30px;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 /* =================================== */
