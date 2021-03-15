@@ -1,7 +1,5 @@
-# Showcase website for Robberechts Consulting
+# Robberechts Consulting web site
 
-Static web site for Robberechts Consulting with only few pages.
+Static vanilla HMTL web site for Robberechts Consulting presentation.
 
-## History
 
-2020-03-26: v1.0
